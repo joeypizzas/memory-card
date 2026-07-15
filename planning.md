@@ -36,6 +36,10 @@
     - name
     - giphyUrl (from API)
     - isClicked (boolean)
+- One usage of useEffect inside of component to fetch gif URLs from giphy API.
+  - Save them in local storage to get around the giphy 100 API calls per hour free tier limit.
+- Async fetchToppingGifs function inside of effect that handles the try, catch, etc. of getting the actual gifs.
+- Effect uses AbortController as clean up function for unmount. Also checjs local storage to prevent calling giphy API again if cards already stored.
 
 ## What inputs will your program have? Will the user enter data or will you get input from somewhere else?
 
@@ -44,3 +48,8 @@
 - Reset game button resets game.
 
 ## How will you design your UI and link it to application state
+
+- Build app component by component in JSX. Initially with entirely hardcoded values.
+- Once component is built with hardcoded values, then pass down hardcoded props (including hardcoded giphy URLs).
+- Once all components are built with hardcoded props, then refactor to add in state.
+- Add in effect of dynamically pulling giphy URLs from the API.
