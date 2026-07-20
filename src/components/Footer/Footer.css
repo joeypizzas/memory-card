@@ -1,1 +1,27 @@
 /* Footer component style */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem;
+}
+
+.footer-text {
+  color: var(--color-crust);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-crust);
+}
+
+a:hover {
+  color: var(--color-tomato);
+}
+
+@media (max-width: 768px) {
+  .footer {
+    width: 100%;
+  }
+}
