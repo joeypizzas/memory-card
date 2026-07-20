@@ -1,1 +1,19 @@
 /* GameInstructions component style */
+
+.game-instructions {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0rem 1rem 0rem;
+  color: var(--color-crust);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.score-and-reset {
+  display: flex;
+}
+
+.score {
+  display: flex;
+  gap: 0.75rem;
+}

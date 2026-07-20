@@ -2,6 +2,6 @@
 
 import "./Game.css";
 
-export function Game() {
-  return <div className="game"></div>;
+export function Game({ children }) {
+  return <div className="game">{children}</div>;
 }
