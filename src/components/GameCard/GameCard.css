@@ -1,1 +1,13 @@
 /* GameCard component style */
+
+.game-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card-image {
+}
+
+.card-name {
+}
