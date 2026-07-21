@@ -1,1 +1,19 @@
 /* ResetGameButton component css */
+
+.reset-game {
+  background-color: var(--color-tomato);
+  color: var(--color-cream);
+  font-weight: 600;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border: none;
+  border-radius: 7px;
+}
+
+.reset-game:hover {
+  background-color: var(--color-tomato-dark);
+}
+
+.reset-game:active {
+  background: var(--color-tomato-dark);
+  transform: scale(0.95);
+}
