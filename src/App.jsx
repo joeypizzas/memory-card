@@ -4,6 +4,7 @@ import { Footer } from "./components/Footer/Footer.jsx";
 import { Game } from "./components/Game/Game.jsx";
 import { GameInstructions } from "./components/GameInstructions/GameInstructions.jsx";
 import { GameArea } from "./components/GameArea/GameArea.jsx";
+import { GameCard } from "./components/GameCard/GameCard.jsx";
 
 function App() {
   return (
@@ -11,7 +12,13 @@ function App() {
       <Header></Header>
       <Game>
         <GameInstructions></GameInstructions>
-        <GameArea></GameArea>
+        <GameArea>
+          <GameCard name="Pepperoni"></GameCard>
+          <GameCard name="Sausage"></GameCard>
+          <GameCard name="Mushroom"></GameCard>
+          <GameCard name="Peppers"></GameCard>
+          <GameCard name="Meatball"></GameCard>
+        </GameArea>
       </Game>
       <Footer></Footer>
     </div>

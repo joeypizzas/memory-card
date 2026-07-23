@@ -7,6 +7,7 @@
   color: var(--color-crust);
   font-size: 1.1rem;
   font-weight: 500;
+  align-items: center;
 }
 
 .score-and-reset {

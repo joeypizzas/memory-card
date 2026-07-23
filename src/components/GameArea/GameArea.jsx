@@ -2,6 +2,6 @@
 
 import "./GameArea.css";
 
-export function GameArea() {
-  return <div className="game-area"></div>;
+export function GameArea({ children }) {
+  return <div className="game-area">{children}</div>;
 }
