@@ -5,8 +5,15 @@ import { Game } from "./components/Game/Game.jsx";
 import { GameInstructions } from "./components/GameInstructions/GameInstructions.jsx";
 import { GameArea } from "./components/GameArea/GameArea.jsx";
 import { GameCard } from "./components/GameCard/GameCard.jsx";
+import { useState } from "react";
 
 function App() {
+  const [currentScore, setCurrentScore] = useState(0);
+  const [highScore, setHighScore] = useState(() => {
+    const stored = localStorage.getItem("highScore");
+    return stored ? Number(stored) : 0;
+  });
+
   return (
     <div className="app">
       <Header></Header>
