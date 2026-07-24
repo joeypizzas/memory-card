@@ -18,6 +18,13 @@ function App() {
           <GameCard name="Mushroom"></GameCard>
           <GameCard name="Peppers"></GameCard>
           <GameCard name="Meatball"></GameCard>
+          <GameCard name="Onions"></GameCard>
+          <GameCard name="Pineapple"></GameCard>
+          <GameCard name="Ham"></GameCard>
+          <GameCard name="Jalapenos"></GameCard>
+          <GameCard name="Garlic"></GameCard>
+          <GameCard name="Bacon"></GameCard>
+          <GameCard name="Chicken"></GameCard>
         </GameArea>
       </Game>
       <Footer></Footer>

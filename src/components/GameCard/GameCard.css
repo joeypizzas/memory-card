@@ -9,15 +9,29 @@
   min-height: 300px;
   border-radius: 8px;
   gap: 2rem;
+  color: var(--color-crust);
+}
+
+.game-card:hover {
+  background-color: var(--color-cheese-dark);
+  color: var(--color-cream);
+}
+
+.game-card:active {
+  background-color: var(--color-cheese-dark);
+  transform: scale(0.95);
+  color: var(--color-cream);
 }
 
 .card-image {
-  padding: 6rem;
+  width: 85%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
   border-radius: 8px;
   background-color: var(--color-tomato);
 }
 
 .card-name {
-  color: var(--color-crust);
   font-size: 1.25rem;
+  font-weight: 600;
 }
